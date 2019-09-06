@@ -1,0 +1,33 @@
+{
+  "rules": {
+    "semi": [
+      2,
+      "never"
+    ],
+    "quotes": [
+      2,
+      "double"
+    ],
+    "comma-dangle": [
+      2,
+      "never"
+    ],
+    "object-curly-newline": [
+      "error",
+      {
+        "ObjectExpression": {
+          "multiline": true
+        },
+        "ObjectPattern": {
+          "multiline": true
+        },
+        "ImportDeclaration": {
+          "multiline": true
+        },
+        "ExportDeclaration": {
+          "multiline": true
+        }
+      }
+    ]
+  }
+}

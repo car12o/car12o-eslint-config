@@ -1,10 +1,11 @@
 {
-  "name": "car12o-eslint-config",
+  "name": "eslint-config-car12o",
   "version": "1.0.0",
-  "description": "car12o-eslint-config",
+  "description": "eslint-config-car12o",
+  "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/car12o/car12o-eslint-config.git"
+    "url": "https://github.com/car12o/eslint-config-car12o.git"
   },
   "keywords": [
     "car12o",
@@ -12,8 +13,7 @@
   ],
   "author": "car12o",
   "license": "ISC",
-  "dependencies": {},
-  "devDependencies": {
+  "dependencies": {
     "eslint": "^6.5.0",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-import": "^2.18.2"

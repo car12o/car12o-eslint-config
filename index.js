@@ -1,21 +1,21 @@
-{
-  "env": {
-    "node": true,
-    "browser": true,
-    "commonjs": true,
-    "es6": true
+module.exports = {
+  env: {
+    node: true,
+    browser: true,
+    commonjs: true,
+    es6: true
   },
-  "extends": [
+  extends: [
     "airbnb-base"
   ],
-  "globals": {
-    "Atomics": "readonly",
-    "SharedArrayBuffer": "readonly"
+  globals: {
+    Atomics: "readonly",
+    SharedArrayBuffer: "readonly"
   },
-  "parserOptions": {
-    "ecmaVersion": 2018
+  parserOptions: {
+    ecmaVersion: 2018
   },
-  "rules": {
+  rules: {
     "no-console": 1,
     "max-len": [
       2,
@@ -37,6 +37,7 @@
       "error",
       2
     ],
+    "prefer-object-spread": 2,
     "no-param-reassign": [
       2,
       {

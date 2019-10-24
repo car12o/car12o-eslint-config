@@ -29,6 +29,7 @@ module.exports = {
       2,
       "never"
     ],
+    "no-underscore-dangle": 0,
     "quotes": [
       2,
       "double"

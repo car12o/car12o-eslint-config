@@ -69,6 +69,7 @@ module.exports = {
           "consistent": true
         }
       }
-    ]
+    ],
+    "import/prefer-default-export": "off"
   }
 }

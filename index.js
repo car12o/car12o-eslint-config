@@ -53,6 +53,7 @@ module.exports = {
       2,
       "always"
     ],
+    "no-shadow": 0,
     "object-curly-newline": [
       "error",
       {

@@ -17,42 +17,16 @@ module.exports = {
   },
   rules: {
     "no-console": 1,
-    "max-len": [
-      2,
-      120
-    ],
-    "semi": [
-      2,
-      "never"
-    ],
-    "comma-dangle": [
-      2,
-      "never"
-    ],
+    "max-len": [2, 120],
+    "semi": [2, "never"],
+    "comma-dangle": [2, "never"],
     "no-underscore-dangle": 0,
-    "quotes": [
-      2,
-      "double"
-    ],
-    "indent": [
-      "error",
-      2
-    ],
+    "quotes": [2, "double"],
+    "indent": ["error", 2, { "SwitchCase": 1 }],
     "prefer-object-spread": 2,
-    "no-param-reassign": [
-      2,
-      {
-        "props": false
-      }
-    ],
-    "array-bracket-spacing": [
-      2,
-      "never"
-    ],
-    "arrow-parens": [
-      2,
-      "always"
-    ],
+    "no-param-reassign": [2, { "props": false }],
+    "array-bracket-spacing": [2, "never"],
+    "arrow-parens": [2, "always"],
     "no-shadow": 0,
     "object-curly-newline": [
       "error",

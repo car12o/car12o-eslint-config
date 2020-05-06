@@ -16,6 +16,7 @@ module.exports = {
     ecmaVersion: 2018
   },
   rules: {
+    "no-unused-vars": ["error", { "vars": "all", "args": "after-used", "ignoreRestSiblings": true, "caughtErrors": "all" }],
     "no-console": 1,
     "max-len": [2, 120],
     "semi": [2, "never"],

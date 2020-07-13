@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-car12o",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "eslint-config-car12o",
   "main": "index.js",
   "repository": {

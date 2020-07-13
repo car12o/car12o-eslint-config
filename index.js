@@ -4,7 +4,7 @@ module.exports = {
     "no-console": 1,
     "max-len": [2, 120],
     "semi": [2, "never"],
-    "comma-dangle": [2, "always"],
+    "comma-dangle": [2, "never"],
     "no-underscore-dangle": 0,
     "quotes": [2, "double"],
     "indent": ["error", 2, { "SwitchCase": 1 }],

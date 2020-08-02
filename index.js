@@ -1,5 +1,9 @@
+const { rules, ...airbnbBase } = require('eslint-config-airbnb-base')
+
 module.exports = {
+  ...airbnbBase,
   rules: {
+    ...rules,
     "no-unused-vars": ["error", { "vars": "all", "args": "after-used", "ignoreRestSiblings": true, "caughtErrors": "all" }],
     "no-console": 1,
     "max-len": [2, 120],

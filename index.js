@@ -2,6 +2,9 @@ const { rules, ...airbnbBase } = require('eslint-config-airbnb-base')
 
 module.exports = {
   ...airbnbBase,
+  parserOptions: {
+    ecmaVersion: 2020
+  },
   rules: {
     ...rules,
     "no-unused-vars": ["error", { "vars": "all", "args": "after-used", "ignoreRestSiblings": true, "caughtErrors": "all" }],

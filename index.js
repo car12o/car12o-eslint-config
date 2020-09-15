@@ -8,18 +8,19 @@ module.exports = {
   rules: {
     ...rules,
     "no-unused-vars": ["error", { "vars": "all", "args": "after-used", "ignoreRestSiblings": true, "caughtErrors": "all" }],
-    "no-console": 1,
-    "max-len": [2, 120],
-    "semi": [2, "never"],
-    "comma-dangle": [2, "never"],
-    "no-underscore-dangle": 0,
-    "quotes": [2, "double"],
-    "indent": ["error", 2, { "SwitchCase": 1 }],
-    "prefer-object-spread": 2,
-    "no-param-reassign": [2, { "props": false }],
-    "array-bracket-spacing": [2, "never"],
-    "arrow-parens": [2, "always"],
-    "no-shadow": 0,
+    "no-console": "warn",
+    "max-len": ["error", 120],
+    "semi": ["error", "never"],
+    "comma-dangle": ["error", "never"],
+    "no-underscore-dangle": "off",
+    "quotes": ["error", "double"],
+    "indent": ["error", "error", { "SwitchCase": 1 }],
+    "prefer-object-spread": "error",
+    "no-param-reassign": ["error", { "props": false }],
+    "array-bracket-spacing": ["error", "never"],
+    "arrow-parens": ["error", "always"],
+    "no-shadow": ["error", { "builtinGlobals": true, "hoist": "functions" }],
+    "no-return-await": "error",
     "object-curly-newline": [
       "error",
       {
@@ -36,7 +37,6 @@ module.exports = {
           "consistent": true
         }
       }
-    ],
-    "import/prefer-default-export": 0
+    ]
   }
 }
